@@ -8,3 +8,4 @@ FROM gitpod/workspace-full
 RUN sudo apt-get clean \
     && sudo apt-get update
 RUN sudo apt-get -y install build-essential libcairo2-dev libpango1.0-dev
+RUN npm install canvas
